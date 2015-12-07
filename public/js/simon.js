@@ -34,7 +34,7 @@ $(".pad").click(function(event){
      	turn++;
      } else { 
      		turn = 0;
-     		alert("You entered the wrong sequence");
+     		alert("You entered the wrong sequence ");
    }
    	if (turn == simon.length) {
    		turn = 0;
